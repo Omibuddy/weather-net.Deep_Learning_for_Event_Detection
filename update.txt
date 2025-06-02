@@ -1,0 +1,597 @@
+Using device: cuda
+Loading data...
+
+Data shapes:
+X_train: (22750, 7, 13)
+y_train: (22750,)
+X_val: (4875, 7, 13)
+y_val: (4875,)
+X_test: (4876, 7, 13)
+y_test: (4876,)
+
+Data loaded successfully!
+Input shape: (7, 13)
+Number of training batches: 711
+Number of validation batches: 153
+Number of test batches: 153
+Starting training...
+Training on device: cuda
+Model parameters: 5,090,726
+
+Epoch 1/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:32<00:00, 21.62it/s, Loss=1.1864, LR=0.000063]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 125.09it/s]
+Train Loss: 1.4756 | Val Loss: 0.1642
+Val MSE: 0.1642 | Val MAE: 0.3203 | Val R²: 0.8306
+Model saved to models/saved/cnn_gru_lstm_model.pth
+
+Epoch 2/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:32<00:00, 21.86it/s, Loss=0.5163, LR=0.000132]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 126.77it/s]
+Train Loss: 0.7482 | Val Loss: 0.1460
+Val MSE: 0.1461 | Val MAE: 0.3004 | Val R²: 0.8492
+Model saved to models/saved/cnn_gru_lstm_model.pth
+
+Epoch 3/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:32<00:00, 21.97it/s, Loss=0.2326, LR=0.000238]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 127.16it/s]
+Train Loss: 0.4107 | Val Loss: 0.1022
+Val MSE: 0.1022 | Val MAE: 0.2522 | Val R²: 0.8946
+Model saved to models/saved/cnn_gru_lstm_model.pth
+
+Epoch 4/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:31<00:00, 22.45it/s, Loss=0.3105, LR=0.000372]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 151.08it/s]
+Train Loss: 0.2470 | Val Loss: 0.1737
+Val MSE: 0.1741 | Val MAE: 0.3437 | Val R²: 0.8203
+
+Epoch 5/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:31<00:00, 22.90it/s, Loss=0.2528, LR=0.000520]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 151.06it/s]
+Train Loss: 0.1756 | Val Loss: 0.1357
+Val MSE: 0.1360 | Val MAE: 0.2931 | Val R²: 0.8596
+
+Epoch 6/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:31<00:00, 22.57it/s, Loss=0.1111, LR=0.000668]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 150.23it/s]
+Train Loss: 0.1432 | Val Loss: 0.1048
+Val MSE: 0.1050 | Val MAE: 0.2568 | Val R²: 0.8917
+
+Epoch 7/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:31<00:00, 22.93it/s, Loss=0.1118, LR=0.000802]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 152.24it/s]
+Train Loss: 0.1293 | Val Loss: 0.0955
+Val MSE: 0.0957 | Val MAE: 0.2432 | Val R²: 0.9013
+Model saved to models/saved/cnn_gru_lstm_model.pth
+
+Epoch 8/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:30<00:00, 22.96it/s, Loss=0.1484, LR=0.000908]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 151.43it/s]
+Train Loss: 0.1252 | Val Loss: 0.0911
+Val MSE: 0.0910 | Val MAE: 0.2357 | Val R²: 0.9061
+Model saved to models/saved/cnn_gru_lstm_model.pth
+
+Epoch 9/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:31<00:00, 22.57it/s, Loss=0.1421, LR=0.000977]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 151.49it/s]
+Train Loss: 0.1200 | Val Loss: 0.1185
+Val MSE: 0.1185 | Val MAE: 0.2733 | Val R²: 0.8778
+
+Epoch 10/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:31<00:00, 22.59it/s, Loss=0.1086, LR=0.001000]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 151.95it/s]
+Train Loss: 0.1187 | Val Loss: 0.0891
+Val MSE: 0.0892 | Val MAE: 0.2356 | Val R²: 0.9080
+Model saved to models/saved/cnn_gru_lstm_model.pth
+
+Epoch 11/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:32<00:00, 22.05it/s, Loss=0.0908, LR=0.001000]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 152.07it/s]
+Train Loss: 0.1151 | Val Loss: 0.0856
+Val MSE: 0.0856 | Val MAE: 0.2279 | Val R²: 0.9117
+Model saved to models/saved/cnn_gru_lstm_model.pth
+
+Epoch 12/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:31<00:00, 22.35it/s, Loss=0.1775, LR=0.000999]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 152.07it/s]
+Train Loss: 0.1133 | Val Loss: 0.1135
+Val MSE: 0.1130 | Val MAE: 0.2664 | Val R²: 0.8834
+
+Epoch 13/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:33<00:00, 21.52it/s, Loss=0.1002, LR=0.000997]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 149.28it/s]
+Train Loss: 0.1117 | Val Loss: 0.0961
+Val MSE: 0.0960 | Val MAE: 0.2430 | Val R²: 0.9010
+
+Epoch 14/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:32<00:00, 22.18it/s, Loss=0.1047, LR=0.000995]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 150.39it/s]
+Train Loss: 0.1096 | Val Loss: 0.0852
+Val MSE: 0.0853 | Val MAE: 0.2289 | Val R²: 0.9120
+Model saved to models/saved/cnn_gru_lstm_model.pth
+
+Epoch 15/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:31<00:00, 22.47it/s, Loss=0.1004, LR=0.000992]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 152.20it/s]
+Train Loss: 0.1070 | Val Loss: 0.0999
+Val MSE: 0.0998 | Val MAE: 0.2446 | Val R²: 0.8971
+
+Epoch 16/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:31<00:00, 22.64it/s, Loss=0.1529, LR=0.000989]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 148.45it/s]
+Train Loss: 0.1077 | Val Loss: 0.0964
+Val MSE: 0.0965 | Val MAE: 0.2461 | Val R²: 0.9004
+
+Epoch 17/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:30<00:00, 22.98it/s, Loss=0.0669, LR=0.000985]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:00<00:00, 159.82it/s]
+Train Loss: 0.1051 | Val Loss: 0.0833
+Val MSE: 0.0833 | Val MAE: 0.2265 | Val R²: 0.9141
+Model saved to models/saved/cnn_gru_lstm_model.pth
+
+Epoch 18/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:32<00:00, 22.05it/s, Loss=0.0864, LR=0.000981]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 151.35it/s]
+Train Loss: 0.1043 | Val Loss: 0.0869
+Val MSE: 0.0867 | Val MAE: 0.2307 | Val R²: 0.9105
+
+Epoch 19/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:31<00:00, 22.48it/s, Loss=0.1373, LR=0.000976]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:00<00:00, 154.23it/s]
+Train Loss: 0.1024 | Val Loss: 0.0838
+Val MSE: 0.0838 | Val MAE: 0.2261 | Val R²: 0.9135
+
+Epoch 20/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:31<00:00, 22.72it/s, Loss=0.0963, LR=0.000970]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:00<00:00, 156.06it/s]
+Train Loss: 0.1010 | Val Loss: 0.0934
+Val MSE: 0.0933 | Val MAE: 0.2385 | Val R²: 0.9038
+
+Epoch 21/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:31<00:00, 22.56it/s, Loss=0.0863, LR=0.000964]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 149.99it/s]
+Train Loss: 0.1003 | Val Loss: 0.0877
+Val MSE: 0.0877 | Val MAE: 0.2311 | Val R²: 0.9095
+
+Epoch 22/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:31<00:00, 22.30it/s, Loss=0.0481, LR=0.000957]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:00<00:00, 157.57it/s]
+Train Loss: 0.0990 | Val Loss: 0.0853
+Val MSE: 0.0851 | Val MAE: 0.2275 | Val R²: 0.9122
+
+Epoch 23/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:32<00:00, 22.09it/s, Loss=0.0651, LR=0.000949]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 151.72it/s]
+Train Loss: 0.0989 | Val Loss: 0.0892
+Val MSE: 0.0892 | Val MAE: 0.2311 | Val R²: 0.9079
+
+Epoch 24/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:32<00:00, 21.72it/s, Loss=0.1052, LR=0.000941]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 151.58it/s]
+Train Loss: 0.0968 | Val Loss: 0.0878
+Val MSE: 0.0879 | Val MAE: 0.2310 | Val R²: 0.9092
+
+Epoch 25/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:33<00:00, 21.50it/s, Loss=0.0972, LR=0.000933]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:00<00:00, 155.07it/s]
+Train Loss: 0.0961 | Val Loss: 0.0914
+Val MSE: 0.0913 | Val MAE: 0.2358 | Val R²: 0.9058
+
+Epoch 26/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:30<00:00, 23.25it/s, Loss=0.0732, LR=0.000924]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:00<00:00, 165.17it/s]
+Train Loss: 0.0940 | Val Loss: 0.0895
+Val MSE: 0.0895 | Val MAE: 0.2339 | Val R²: 0.9077
+
+Epoch 27/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:31<00:00, 22.57it/s, Loss=0.0917, LR=0.000915]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:00<00:00, 190.86it/s]
+Train Loss: 0.0939 | Val Loss: 0.0974
+Val MSE: 0.0972 | Val MAE: 0.2444 | Val R²: 0.8997
+
+Epoch 28/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:32<00:00, 22.11it/s, Loss=0.1010, LR=0.000904]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 143.96it/s]
+Train Loss: 0.0918 | Val Loss: 0.0860
+Val MSE: 0.0861 | Val MAE: 0.2288 | Val R²: 0.9112
+
+Epoch 29/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:32<00:00, 21.69it/s, Loss=0.0980, LR=0.000894]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 152.98it/s]
+Train Loss: 0.0912 | Val Loss: 0.0884
+Val MSE: 0.0882 | Val MAE: 0.2318 | Val R²: 0.9090
+
+Epoch 30/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:32<00:00, 21.96it/s, Loss=0.1114, LR=0.000883]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 146.73it/s]
+Train Loss: 0.0898 | Val Loss: 0.0914
+Val MSE: 0.0913 | Val MAE: 0.2365 | Val R²: 0.9058
+
+Epoch 31/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:32<00:00, 21.93it/s, Loss=0.1730, LR=0.000872]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 144.11it/s]
+Train Loss: 0.0891 | Val Loss: 0.0892
+Val MSE: 0.0893 | Val MAE: 0.2351 | Val R²: 0.9078
+
+Epoch 32/100
+--------------------------------------------------
+Training: 100%|████████████████████████████████████████████| 711/711 [00:32<00:00, 21.90it/s, Loss=0.0787, LR=0.000860]
+Validation: 100%|███████████████████████████████████████████████████████████████████| 153/153 [00:01<00:00, 143.81it/s]
+Train Loss: 0.0867 | Val Loss: 0.0903
+Val MSE: 0.0902 | Val MAE: 0.2353 | Val R²: 0.9069
+Early stopping triggered after 32 epochs
+
+Training completed in 17.59 minutes
+
+---------------------------------------cnn_gru_lstm_model -----
+Using device: cuda
+Loading train data...
+X_train shape: torch.Size([22750, 7, 13]), y_train shape: torch.Size([22750, 1])
+Loading val data...
+X_val shape: torch.Size([4875, 7, 13]), y_val shape: torch.Size([4875, 1])
+Starting training...
+Epoch 1/50 | Train Loss: 0.2554 | Val Loss: 0.2119 | Duration: 13.84s
+Model improved and saved to saved_models/ultra_weather_model_best.pth
+Epoch 2/50 | Train Loss: 0.1763 | Val Loss: 0.1895 | Duration: 13.20s
+Model improved and saved to saved_models/ultra_weather_model_best.pth
+Epoch 3/50 | Train Loss: 0.1599 | Val Loss: 0.1406 | Duration: 13.35s
+Model improved and saved to saved_models/ultra_weather_model_best.pth
+Epoch 4/50 | Train Loss: 0.1490 | Val Loss: 0.1338 | Duration: 13.33s
+Model improved and saved to saved_models/ultra_weather_model_best.pth
+Epoch 5/50 | Train Loss: 0.1443 | Val Loss: 0.1188 | Duration: 13.60s
+Model improved and saved to saved_models/ultra_weather_model_best.pth
+Epoch 6/50 | Train Loss: 0.1382 | Val Loss: 0.0924 | Duration: 13.49s
+Model improved and saved to saved_models/ultra_weather_model_best.pth
+Epoch 7/50 | Train Loss: 0.1362 | Val Loss: 0.1133 | Duration: 13.38s
+No improvement in validation loss for 1 epoch(s).
+Epoch 8/50 | Train Loss: 0.1347 | Val Loss: 0.1049 | Duration: 13.21s
+No improvement in validation loss for 2 epoch(s).
+Epoch 9/50 | Train Loss: 0.1308 | Val Loss: 0.1348 | Duration: 13.46s
+No improvement in validation loss for 3 epoch(s).
+Epoch 10/50 | Train Loss: 0.1232 | Val Loss: 0.0940 | Duration: 13.29s
+No improvement in validation loss for 4 epoch(s).
+Epoch 11/50 | Train Loss: 0.1224 | Val Loss: 0.1212 | Duration: 13.41s
+No improvement in validation loss for 5 epoch(s).
+Early stopping triggered after 11 epochs.
+Training finished.
+Best validation loss: 0.0924
+4kondhal @basegpu1 heatwave-forecasting $ python predict_cnn_gru_lstm.py                                             
+Using device: cuda
+Loading test data...
+X_test shape: torch.Size([4876, 7, 13]), y_test shape: torch.Size([4876, 1])
+Model loaded from saved_models/ultra_weather_model_best.pth
+Starting prediction...
+
+--- Test Set Evaluation ---
+Mean Squared Error (MSE): 0.0951
+Root Mean Squared Error (RMSE): 0.3084
+Mean Absolute Error (MAE): 0.2349
+Predictions saved to predictions/test_predictions.npy
+Prediction finished.
+
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import math
+import numpy as np
+
+class WeatherAwarePositionalEncoding(nn.Module):
+    """Seasonal and cyclical positional encoding for weather data"""
+    def __init__(self, d_model, max_len=365):
+        super().__init__()
+        self.d_model = d_model
+        
+        # Create positional encoding matrix
+        pe = torch.zeros(max_len, d_model)
+        position = torch.arange(0, max_len, dtype=torch.float).unsqueeze(1)
+        
+        # Standard positional encoding
+        div_term = torch.exp(torch.arange(0, d_model, 2).float() * 
+                           (-math.log(10000.0) / d_model))
+        pe[:, 0::2] = torch.sin(position * div_term)
+        pe[:, 1::2] = torch.cos(position * div_term)
+        
+        # Add seasonal components
+        if d_model >= 4:
+            # Annual cycle (365 days)
+            pe[:, -4] = torch.sin(2 * math.pi * position.squeeze() / 365.25)
+            pe[:, -3] = torch.cos(2 * math.pi * position.squeeze() / 365.25)
+            # Monthly cycle (30 days)
+            pe[:, -2] = torch.sin(2 * math.pi * position.squeeze() / 30.0)
+            pe[:, -1] = torch.cos(2 * math.pi * position.squeeze() / 30.0)
+        
+        self.register_buffer('pe', pe.unsqueeze(0))
+    
+    def forward(self, x, day_of_year=None):
+        if day_of_year is not None:
+            # Use actual day of year for more accurate encoding
+            return x + self.pe[:, day_of_year:day_of_year+x.size(1)]
+        return x + self.pe[:, :x.size(1)]
+
+class MultiScaleTemporalConv(nn.Module):
+    """Multi-scale temporal convolution for different weather patterns"""
+    def __init__(self, in_channels, out_channels):
+        super().__init__()
+        # Different scales for weather patterns
+        self.conv_1h = nn.Conv1d(in_channels, out_channels//4, 1)  # Immediate
+        self.conv_3h = nn.Conv1d(in_channels, out_channels//4, 3, padding=1)  # Short-term
+        self.conv_6h = nn.Conv1d(in_channels, out_channels//4, 5, padding=2)  # Medium-term
+        self.conv_12h = nn.Conv1d(in_channels, out_channels//4, 7, padding=3)  # Long-term
+        
+        self.bn = nn.BatchNorm1d(out_channels)
+        self.dropout = nn.Dropout(0.1)
+        
+    def forward(self, x):
+        # Apply different temporal scales
+        conv1 = self.conv_1h(x)
+        conv3 = self.conv_3h(x)
+        conv6 = self.conv_6h(x)
+        conv12 = self.conv_12h(x)
+        
+        # Concatenate multi-scale features
+        combined = torch.cat([conv1, conv3, conv6, conv12], dim=1)
+        combined = self.bn(combined)
+        combined = F.relu(combined)
+        combined = self.dropout(combined)
+        
+        return combined
+
+class AdaptiveTemporalPooling(nn.Module):
+    """Adaptive pooling that focuses on important temporal moments"""
+    def __init__(self, input_dim, attention_dim=64):
+        super().__init__()
+        self.attention = nn.Sequential(
+            nn.Linear(input_dim, attention_dim),
+            nn.Tanh(),
+            nn.Linear(attention_dim, 1)
+        )
+        
+    def forward(self, x):
+        # x: (batch, seq_len, features)
+        attention_weights = torch.softmax(self.attention(x), dim=1)
+        
+        # Weighted average and max pooling
+        weighted_avg = torch.sum(attention_weights * x, dim=1)
+        max_pool, _ = torch.max(x, dim=1)
+        
+        return torch.cat([weighted_avg, max_pool], dim=1), attention_weights
+
+class WeatherFeatureExtractor(nn.Module):
+    """Specialized feature extraction for weather data"""
+    def __init__(self, num_features, hidden_dim=128):
+        super().__init__()
+        
+        # Group related weather features
+        self.temp_features = nn.Linear(4, hidden_dim//4)
+        self.pressure_features = nn.Linear(3, hidden_dim//4)
+        self.atmospheric_features = nn.Linear(3, hidden_dim//4)
+        self.condition_features = nn.Linear(3, hidden_dim//4)
+        
+        self.feature_fusion = nn.Sequential(
+            nn.Linear(hidden_dim, hidden_dim),
+            nn.BatchNorm1d(hidden_dim),
+            nn.ReLU(),
+            nn.Dropout(0.1)
+        )
+        
+    def forward(self, x):
+        # Extract features for each group
+        temp_feat = F.relu(self.temp_features(x[..., :4]))
+        pressure_feat = F.relu(self.pressure_features(x[..., 4:7]))
+        atm_feat = F.relu(self.atmospheric_features(x[..., 7:10]))
+        cond_feat = F.relu(self.condition_features(x[..., 10:13]))
+        
+        combined = torch.cat([temp_feat, pressure_feat, atm_feat, cond_feat], dim=-1)
+        
+        # Apply fusion only if we have batch dimension
+        if len(combined.shape) == 3:  # (batch, seq, features)
+            batch_size, seq_len = combined.shape[:2]
+            combined_flat = combined.view(-1, combined.shape[-1])
+            fused = self.feature_fusion(combined_flat)
+            fused = fused.view(batch_size, seq_len, -1)
+        else:  # (batch, features)
+            fused = self.feature_fusion(combined)
+            
+        return fused
+
+class WeatherTransformerBlock(nn.Module):
+    """Transformer block optimized for weather sequences"""
+    def __init__(self, d_model, nhead=8, dropout=0.1):
+        super().__init__()
+        self.self_attn = nn.MultiheadAttention(d_model, nhead, dropout=dropout, batch_first=True)
+        self.linear1 = nn.Linear(d_model, d_model * 4)
+        self.linear2 = nn.Linear(d_model * 4, d_model)
+        self.norm1 = nn.LayerNorm(d_model)
+        self.norm2 = nn.LayerNorm(d_model)
+        self.dropout = nn.Dropout(dropout)
+        
+    def forward(self, x):
+        # Self-attention with residual
+        attn_out, attn_weights = self.self_attn(x, x, x)
+        x = self.norm1(x + self.dropout(attn_out))
+        
+        # Feed-forward with residual
+        ff_out = self.linear2(F.relu(self.linear1(x)))
+        x = self.norm2(x + self.dropout(ff_out))
+        
+        return x, attn_weights
+
+class UltraWeatherModel(nn.Module):
+    """Ultra-enhanced weather prediction model"""
+    def __init__(self, seq_len=7, num_features=13, hidden_dim=256, 
+                 num_transformer_layers=4, num_heads=8, dropout=0.2):
+        super().__init__()
+        
+        self.seq_len = seq_len
+        self.num_features = num_features
+        self.hidden_dim = hidden_dim
+        
+        # Specialized weather feature extraction
+        self.weather_extractor = WeatherFeatureExtractor(num_features, hidden_dim)
+        
+        # Positional encoding for temporal patterns
+        self.pos_encoding = WeatherAwarePositionalEncoding(hidden_dim)
+        
+        # Multi-scale temporal convolutions
+        self.temporal_conv = MultiScaleTemporalConv(hidden_dim, hidden_dim)
+        
+        # Transformer layers for long-range dependencies
+        self.transformer_layers = nn.ModuleList([
+            WeatherTransformerBlock(hidden_dim, num_heads, dropout)
+            for _ in range(num_transformer_layers)
+        ])
+        
+        # Adaptive temporal pooling
+        self.adaptive_pool = AdaptiveTemporalPooling(hidden_dim, hidden_dim//4)
+        
+        # Final prediction layers
+        self.predictor = nn.Sequential(
+            nn.Linear(hidden_dim * 2, hidden_dim),  # *2 from adaptive pooling
+            nn.BatchNorm1d(hidden_dim),
+            nn.ReLU(),
+            nn.Dropout(dropout),
+            nn.Linear(hidden_dim, hidden_dim//2),
+            nn.BatchNorm1d(hidden_dim//2),
+            nn.ReLU(),
+            nn.Dropout(dropout),
+            nn.Linear(hidden_dim//2, 1)
+        )
+        
+        self._init_weights()
+    
+    def _init_weights(self):
+        for module in self.modules():
+            if isinstance(module, nn.Linear):
+                nn.init.xavier_normal_(module.weight)
+                if module.bias is not None:
+                    nn.init.zeros_(module.bias)
+            elif isinstance(module, nn.Conv1d):
+                nn.init.kaiming_normal_(module.weight)
+    
+    def forward(self, x, day_of_year=None):
+        # Extract weather-specific features
+        weather_features = self.weather_extractor(x)
+        
+        # Add positional encoding
+        weather_features = self.pos_encoding(weather_features, day_of_year)
+        
+        # Multi-scale temporal convolution
+        # Reshape for conv1d: (batch, features, seq_len)
+        conv_input = weather_features.permute(0, 2, 1)
+        temporal_features = self.temporal_conv(conv_input)
+        # Reshape back: (batch, seq_len, features)
+        temporal_features = temporal_features.permute(0, 2, 1)
+        
+        # Apply transformer layers
+        transformer_out = temporal_features
+        attention_maps = []
+        for transformer in self.transformer_layers:
+            transformer_out, attention = transformer(transformer_out)
+            attention_maps.append(attention)
+        
+        # Adaptive temporal pooling
+        pooled_features, pool_attention = self.adaptive_pool(transformer_out)
+        
+        # Final prediction
+        prediction = self.predictor(pooled_features)
+        
+        return prediction, {
+            'attention_maps': attention_maps,
+            'pool_attention': pool_attention
+        }
+
+class WeatherLossV2(nn.Module):
+    """Advanced loss function for weather prediction"""
+    def __init__(self, extreme_temp_threshold=35.0, cold_threshold=0.0,
+                 extreme_weight=3.0, seasonal_weight=1.5):
+        super().__init__()
+        self.extreme_temp_threshold = extreme_temp_threshold
+        self.cold_threshold = cold_threshold
+        self.extreme_weight = extreme_weight
+        self.seasonal_weight = seasonal_weight
+        
+    def forward(self, predictions, targets, day_of_year=None):
+        # Base MSE loss
+        mse_loss = F.mse_loss(predictions, targets, reduction='none')
+        
+        # Extreme temperature weighting
+        extreme_hot_mask = (targets > self.extreme_temp_threshold).float()
+        extreme_cold_mask = (targets < self.cold_threshold).float()
+        extreme_mask = extreme_hot_mask + extreme_cold_mask
+        
+        # Seasonal weighting (summer months get higher weight for heat prediction)
+        seasonal_weight = torch.ones_like(targets)
+        if day_of_year is not None:
+            # Higher weight for summer months (June-August: days 152-243)
+            summer_mask = ((day_of_year >= 152) & (day_of_year <= 243)).float()
+            seasonal_weight = 1 + summer_mask * (self.seasonal_weight - 1)
+        
+        # Combined weighting
+        total_weight = 1 + extreme_mask * self.extreme_weight
+        total_weight = total_weight * seasonal_weight
+        
+        weighted_loss = mse_loss * total_weight
+        return weighted_loss.mean()
+
+def create_model_with_config(config):
+    """Create model with configuration dictionary"""
+    return UltraWeatherModel(
+        seq_len=config.get('seq_len', 7),
+        num_features=config.get('num_features', 13),
+        hidden_dim=config.get('hidden_dim', 256),
+        num_transformer_layers=config.get('num_transformer_layers', 4),
+        num_heads=config.get('num_heads', 8),
+        dropout=config.get('dropout', 0.2)
+    )
+
+def get_model_summary(model, input_shape):
+    """Get model summary with input shape"""
+    def count_parameters(model):
+        return sum(p.numel() for p in model.parameters() if p.requires_grad)
+    
+    print(f"Model Summary:")
+    print(f"Input Shape: {input_shape}")
+    print(f"Total Parameters: {count_parameters(model):,}")
+    print(f"Trainable Parameters: {count_parameters(model):,}")
+
+# Example configuration for different scenarios
+HEATWAVE_CONFIG = {
+    'seq_len': 14,  # 2 weeks of data for better heatwave prediction
+    'num_features': 13,
+    'lstm_units': 512,  # Increased capacity
+    'dense_units': 256,
+    'dropout_rate': 0.2,  # Reduced dropout for more complex patterns
+    'task_type': 'regression'
+}
