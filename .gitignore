@@ -27,11 +27,57 @@ ENV/
 *.pt
 *.ckpt
 
-# Logs and databases
+# Large data files
+*.nc
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Processed data directories
+processed_*/
+samples/
+raw_data/
+
+# Trained models (large files)
+Trained_model/
+Models/*.pth
+Models/*.pt
+
+# GPU and system files
 *.log
 *.sqlite
 *.db
+nvidia-smi.log
+gpu_usage.log
 
 # OS specific files
 .DS_Store
 Thumbs.db
+
+# Evaluation results (can be regenerated)
+evaluation_results/
+
+# Backup files
+backup/
+*.bak
+*.backup
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Large visualization files
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# Memory dumps and core files
+*.dump
+core.*
