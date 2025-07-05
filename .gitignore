@@ -22,10 +22,10 @@ ENV/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Model checkpoints and data
-*.pth
-*.pt
-*.ckpt
+# # Model checkpoints and data
+# *.pth
+# *.pt
+# *.ckpt
 
 # Large data files
 *.nc
@@ -41,10 +41,10 @@ processed_*/
 samples/
 raw_data/
 
-# Trained models (large files)
-Trained_model/
-Models/*.pth
-Models/*.pt
+# # Trained models (large files)
+# Trained_model/
+# Models/*.pth
+# Models/*.pt
 
 # GPU and system files
 *.log
@@ -71,12 +71,12 @@ backup/
 temp/
 tmp/
 
-# Large visualization files
-*.png
-*.jpg
-*.jpeg
-*.pdf
-*.svg
+# # Large visualization files
+# *.png
+# *.jpg
+# *.jpeg
+# *.pdf
+# *.svg
 
 # Memory dumps and core files
 *.dump
