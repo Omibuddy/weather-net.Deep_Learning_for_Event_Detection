@@ -8,7 +8,7 @@ dist/
 build/
 *.egg-info/
 
-# Virtual environment
+# # Virtual environment
 venv/
 env/
 ENV/
@@ -27,14 +27,14 @@ ENV/
 # *.pt
 # *.ckpt
 
-# Large data files
-*.nc
-*.npz
-*.npy
-*.h5
-*.hdf5
-*.pkl
-*.pickle
+# # Large data files
+# *.nc
+# *.npz
+# *.npy
+# *.h5
+# *.hdf5
+# *.pkl
+# *.pickle
 
 # Processed data directories
 processed_*/
