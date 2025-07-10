@@ -1,10 +1,10 @@
 # Heatwave Forecasting Project
 
-## 🌡️ Project Overview
+##  Project Overview
 
 This project implements deep learning models for forecasting heatwave and coldwave events using climate data. The system processes NetCDF climate data files containing temperature and dewpoint measurements to predict extreme weather events with high accuracy.
 
-## 📊 Data Description
+##  Data Description
 
 ### Input Data
 - **Format**: NetCDF (.nc) files
@@ -25,7 +25,7 @@ The preprocessing pipeline includes:
 - **Sequence creation**: 10-timestep input sequences for 1-timestep predictions
 - **Memory optimization**: Float32 precision and compressed storage
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 ### 1. CNN Model (`cnn_model.py`)
 - **Architecture**: Convolutional Neural Network
@@ -54,7 +54,7 @@ The preprocessing pipeline includes:
 - **Input**: Full sequence (10, height, width, channels)
 - **Output**: Predicted climate variables
 
-## 📈 Performance Results
+##  Performance Results
 
 ### Model Comparison
 | Model | Temperature R² | Dewpoint R² | Heatwave RMSE | Coldwave RMSE |
@@ -70,7 +70,7 @@ The preprocessing pipeline includes:
 | CNN-LSTM | 0.8217 | 0.8342 | 0.8976 | 0.8351 |
 | CNN-LSTM-GRU | 0.8438 | 0.8438 | 0.9038 | 0.8578 |
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -103,7 +103,7 @@ The preprocessing pipeline includes:
    nvidia-smi  # Check GPU status
    ```
 
-## 📋 Usage Guide
+##  Usage Guide
 
 ### 1. Data Preprocessing
 
@@ -157,7 +157,7 @@ This generates:
 bash check_gpu_usage.sh
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 heatwave-forecasting/
@@ -196,7 +196,7 @@ heatwave-forecasting/
 - Reduce `temporal_sample_ratio` for memory constraints
 - Adjust `batch_size` based on GPU memory
 
-## 📊 Visualization
+##  Visualization
 
 The project generates several visualization outputs:
 
@@ -206,7 +206,7 @@ The project generates several visualization outputs:
 4. **Seasonal Analysis**: Seasonal event detection patterns
 5. **Spatial Maps**: Geographic distribution of predictions
 
-## 🎯 Key Features
+##  Key Features
 
 - **Multi-model comparison**: CNN, CNN-LSTM, CNN-LSTM-GRU architectures
 - **Event detection**: Specialized heatwave and coldwave detection
@@ -215,7 +215,7 @@ The project generates several visualization outputs:
 - **Comprehensive evaluation**: Multiple metrics and visualizations
 - **Threshold optimization**: Automatic optimal threshold finding
 
-## 🔬 Technical Details
+##  Technical Details
 
 ### Data Flow
 ```
@@ -233,7 +233,7 @@ NetCDF Files → Preprocessing → Sequence Creation → Model Training → Eval
 - **Validation**: 15% of data for validation
 - **Testing**: 15% of data for final evaluation
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -241,11 +241,11 @@ NetCDF Files → Preprocessing → Sequence Creation → Model Training → Eval
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Climate data provided by meteorological services
 - PyTorch community for deep learning framework
